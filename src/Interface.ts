@@ -13,3 +13,8 @@ export interface ServiceTypes {
   arrow: string;
   background: string;
 }
+
+export interface LoadMoreBtnTypes {
+  handleClick: () => void;
+  showMore: boolean;
+}

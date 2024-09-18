@@ -19,7 +19,6 @@ body,
 .home-background {
   background-image: url("../src/assets/backgrounds/galaktika1.png");
   background-repeat: no-repeat;
-
   background-position: top;
   background-size: cover;
 }
@@ -28,5 +27,12 @@ body,
   background-image: url("../src//assets/backgrounds/footerback.png");
   width: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-background {
+  background-image: url("../src/assets/backgrounds/galaktika2.png");
+  background-repeat: no-repeat;
+  background-position: top;
   background-size: cover;
 }
