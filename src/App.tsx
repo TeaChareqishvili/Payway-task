@@ -7,11 +7,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <main className="flex-grow"> */}
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-      </Routes>
-      {/* </main> */}
+      <main className="flex-grow flex">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </main>
       <Footer />
     </div>
   );
