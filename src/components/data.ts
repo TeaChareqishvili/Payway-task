@@ -2,12 +2,15 @@ import facebook from "../assets/socialIcons/facebook.png";
 import instagram from "../assets/socialIcons/insta.png";
 import twitter from "../assets/socialIcons/twitter.png";
 import linkedin from "../assets/socialIcons/linkedin.png";
-import { LinksTypes } from "../Interface";
+import { LinksTypes, SlideTypes } from "../Interface";
 import { ServiceTypes } from "../Interface";
 import web from "../assets/services/web.tif.png";
 import mobile from "../assets/services/mobile.png";
 import UI from "../assets/services/UI.png";
 import arrow from "../assets/services/arrow.png";
+import slide from "../assets/projects/project.png";
+import slide2 from "../assets/projects/project2.png";
+import slide3 from "../assets/projects/project3.png";
 
 export const socialLinks: LinksTypes[] = [
   {
@@ -59,5 +62,32 @@ export const ServiceData: ServiceTypes[] = [
     text: "Lorem ipsum dolor sit amet, consete sadipscing elitr, sed di nonumy eirm tempor invidunt dolore.",
     arrow: arrow,
     background: "#c0c5fc",
+  },
+];
+
+export const sliderdata: SlideTypes[] = [
+  {
+    id: 1,
+    image: slide,
+  },
+  {
+    id: 2,
+    image: slide2,
+  },
+  {
+    id: 3,
+    image: slide3,
+  },
+  {
+    id: 4,
+    image: slide,
+  },
+  {
+    id: 5,
+    image: slide2,
+  },
+  {
+    id: 6,
+    image: slide3,
   },
 ];

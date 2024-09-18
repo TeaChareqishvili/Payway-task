@@ -18,3 +18,8 @@ export interface LoadMoreBtnTypes {
   handleClick: () => void;
   showMore: boolean;
 }
+
+export interface SlideTypes {
+  id: number;
+  image: string;
+}
