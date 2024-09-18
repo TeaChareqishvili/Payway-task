@@ -2,15 +2,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/controller";
 import { sliderdata } from "./data";
 
 import { Autoplay, Mousewheel, Keyboard } from "swiper/modules";
+import SliderBtns from "./SliderBtns";
 
 export default function Slider() {
   return (
     <Swiper
       slidesPerView="auto"
-      className=" flex items-center  w-full overflow-hidden"
+      className=" flex items-center  w-full overflow-hidden relative"
       keyboard={true}
       pagination={true}
       modules={[Mousewheel, Keyboard, Autoplay]}
@@ -24,6 +26,7 @@ export default function Slider() {
           <img src={item.image} alt="project-image" />
         </SwiperSlide>
       ))}
+      <SliderBtns />
     </Swiper>
   );
 }
