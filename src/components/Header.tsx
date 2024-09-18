@@ -1,4 +1,5 @@
 import Logo from "../assets/logo.png";
+import Navigation from "./Navigation";
 
 export default function Header() {
   return (
@@ -7,7 +8,7 @@ export default function Header() {
         <div>
           <img src={Logo} alt="logo" />
         </div>
-        <div>Navigation goes here</div>
+        <Navigation />
       </div>
     </div>
   );
