@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Payway-task/static/css/main.f1d756c2.css",
-    "main.js": "/Payway-task/static/js/main.91ee65df.js",
+    "main.css": "/Payway-task/static/css/main.c5c6c25f.css",
+    "main.js": "/Payway-task/static/js/main.614933f9.js",
     "static/media/galaktika2.png": "/Payway-task/static/media/galaktika2.d4edcd687b00df2c2937.png",
     "static/media/galaktika1.png": "/Payway-task/static/media/galaktika1.0d08b81ab8f3ecb31882.png",
     "static/media/mobileback.png": "/Payway-task/static/media/mobileback.b101f26c15ad3f338746.png",
@@ -16,11 +16,11 @@
     "static/media/robot.png": "/Payway-task/static/media/robot.85737854fee5e3398256.png",
     "static/media/footerback.png": "/Payway-task/static/media/footerback.fa08df5cffa9fc815489.png",
     "index.html": "/Payway-task/index.html",
-    "main.f1d756c2.css.map": "/Payway-task/static/css/main.f1d756c2.css.map",
-    "main.91ee65df.js.map": "/Payway-task/static/js/main.91ee65df.js.map"
+    "main.c5c6c25f.css.map": "/Payway-task/static/css/main.c5c6c25f.css.map",
+    "main.614933f9.js.map": "/Payway-task/static/js/main.614933f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1d756c2.css",
-    "static/js/main.91ee65df.js"
+    "static/css/main.c5c6c25f.css",
+    "static/js/main.614933f9.js"
   ]
 }
