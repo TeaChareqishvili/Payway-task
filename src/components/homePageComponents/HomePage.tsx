@@ -1,5 +1,5 @@
-import curly from "../assets/curly.png";
-import LeadingText from "./LeadingText";
+import curly from "../../assets/curly.png";
+import LeadingText from "../commonComponents/LeadingText";
 import ServicesLayout from "./ServicesLayout";
 
 export default function HomePage() {

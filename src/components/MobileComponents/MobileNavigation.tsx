@@ -1,4 +1,4 @@
-import Navigation from "./Navigation";
+import Navigation from "../commonComponents/Navigation";
 
 export default function MobileNavigation() {
   return (

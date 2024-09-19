@@ -1,4 +1,4 @@
-import back from "../assets/projects/backarrow.png";
+import back from "../../assets/projects/backarrow.png";
 import { NavLink } from "react-router-dom";
 
 export default function BackBtn() {

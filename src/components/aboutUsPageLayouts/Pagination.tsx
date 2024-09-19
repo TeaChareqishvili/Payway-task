@@ -1,9 +1,9 @@
-import RightArrows from "../assets/aboutus/paginationRight.png";
-import LeftArrows from "../assets/aboutus/paginationLeft.png";
-import left from "../assets/aboutus/leftarrowP.png";
-import right from "../assets/aboutus/rightarrowP.png";
+import RightArrows from "../../assets/aboutus/paginationRight.png";
+import LeftArrows from "../../assets/aboutus/paginationLeft.png";
+import left from "../../assets/aboutus/leftarrowP.png";
+import right from "../../assets/aboutus/rightarrowP.png";
 import { useState } from "react";
-import { PaginationProps } from "../Interface";
+import { PaginationProps } from "../../Interface";
 
 export default function Pagination({
   totalPages,

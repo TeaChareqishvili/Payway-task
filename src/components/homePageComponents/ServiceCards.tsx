@@ -1,4 +1,4 @@
-import { ServiceData } from "./data";
+import { ServiceData } from "../data";
 
 export default function ServiceCards() {
   return (

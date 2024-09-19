@@ -1,4 +1,4 @@
-import { TeamData } from "./data";
+import { TeamData } from "../data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useState } from "react";
 

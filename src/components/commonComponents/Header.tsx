@@ -1,5 +1,5 @@
-import Logo from "../assets/logo.png";
-import Burger from "./Burger";
+import Logo from "../../assets/logo.png";
+import Burger from "../MobileComponents/Burger";
 import Navigation from "./Navigation";
 
 export default function Header() {

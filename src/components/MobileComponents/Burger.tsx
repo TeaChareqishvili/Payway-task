@@ -1,4 +1,4 @@
-import burger from "../assets/burger.png";
+import burger from "../../assets/burger.png";
 import { NavLink } from "react-router-dom";
 
 export default function Burger() {

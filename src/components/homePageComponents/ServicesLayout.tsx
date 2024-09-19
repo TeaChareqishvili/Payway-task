@@ -5,6 +5,7 @@ import { useState } from "react";
 export default function ServicesLayout() {
   const [showMore, setShowMore] = useState(false);
 
+  // function to toggle button for cards show more/less
   const handleClick = () => {
     setShowMore(!showMore);
   };

@@ -1,5 +1,5 @@
-import leftArror from "../assets/projects/leftarrow.png";
-import rightArrow from "../assets/projects/rightarrow.png";
+import leftArror from "../../assets/projects/leftarrow.png";
+import rightArrow from "../../assets/projects/rightarrow.png";
 import { useSwiper } from "swiper/react";
 
 export default function SliderBtns() {

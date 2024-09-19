@@ -1,5 +1,5 @@
-import LeadingText from "./LeadingText";
-import curly from "../assets/curly.png";
+import LeadingText from "../commonComponents/LeadingText";
+import curly from "../../assets/curly.png";
 import Team from "./Team";
 
 export default function AboutUsPage() {

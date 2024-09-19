@@ -1,4 +1,4 @@
-import Frame from "../assets/Frame.png";
+import Frame from "../../assets/Frame.png";
 import SociaLinks from "./SocilaLinks";
 
 export default function Footer() {

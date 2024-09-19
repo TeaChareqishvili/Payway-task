@@ -1,5 +1,5 @@
-import { socialLinks } from "./data";
-import { SocialLinksProps } from "../Interface";
+import { socialLinks } from "../data";
+import { SocialLinksProps } from "../../Interface";
 
 export default function SociaLinks({
   justifyContent,

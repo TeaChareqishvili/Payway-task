@@ -1,6 +1,6 @@
-import curly from "../assets/curly.png";
+import curly from "../../assets/curly.png";
 import BackBtn from "./BackBtn";
-import LeadingText from "./LeadingText";
+import LeadingText from "../commonComponents/LeadingText";
 import Slider from "./Slider";
 
 export default function ProjectPage() {

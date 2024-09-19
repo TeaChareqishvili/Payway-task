@@ -3,7 +3,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/controller";
-import { sliderdata } from "./data";
+import { sliderdata } from "../data";
 import { Autoplay, Mousewheel, Keyboard } from "swiper/modules";
 import SliderBtns from "./SliderBtns";
 

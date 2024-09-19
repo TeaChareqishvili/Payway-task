@@ -1,13 +1,13 @@
 import { Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import HomePage from "./components/HomePage";
-import Footer from "./components/Footer";
-import ProjectPage from "./components/PorjectPage";
-import AboutUsPage from "./components/AboutUsPage";
-import ContactLayout from "./components/ContactLayout";
-import PartnersLayout from "./components/PartnersLayout";
-import ServicePage from "./components/ServicePage";
-import MobileMenu from "./components/MobileMenu";
+import Header from "./components/commonComponents/Header";
+import HomePage from "../src/components/homePageComponents/HomePage";
+import Footer from "../src/components/commonComponents/Footer";
+import ProjectPage from "./components/projectPageComponets/ProjectPage";
+import AboutUsPage from "./components/aboutUsPageLayouts/AboutUsPage";
+import ContactLayout from "./components/generalLayOuts/ContactLayout";
+import PartnersLayout from "./components/generalLayOuts/PartnersLayout";
+import ServicePage from "./components/generalLayOuts/ServicePage";
+import MobileMenu from "./components/MobileComponents/MobileMenu";
 
 function App() {
   return (

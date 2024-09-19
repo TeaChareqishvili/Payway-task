@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
-
-import { NavigationProps } from "../Interface";
+import { NavigationProps } from "../../Interface";
 
 const Navigation: React.FC<NavigationProps> = ({
   flexDirection,

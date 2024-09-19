@@ -1,9 +1,9 @@
-import robot from "../assets/backgrounds/robot.png";
+import robot from "../../assets/backgrounds/robot.png";
 import MobileNavigation from "./MobileNavigation";
-import Logo from "../assets/logo.png";
-import burger from "../assets/burger.png";
+import Logo from "../../assets/logo.png";
+import burger from "../../assets/burger.png";
 import { NavLink } from "react-router-dom";
-import SociaLinks from "./SocilaLinks";
+import SociaLinks from "../commonComponents/SocilaLinks";
 
 export default function MobileMenu() {
   return (

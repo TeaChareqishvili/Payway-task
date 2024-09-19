@@ -1,5 +1,5 @@
-import more from "../assets/plus.png";
-import { LoadMoreBtnTypes } from "../Interface";
+import more from "../../assets/plus.png";
+import { LoadMoreBtnTypes } from "../../Interface";
 
 export default function LoadMorebtn({
   handleClick,
