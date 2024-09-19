@@ -19,9 +19,9 @@ export default function Footer() {
             Copyright Devspace
           </p>
         </div>
-        <div className="order-2 md:order-3 w-full  my-[62px] md:my-[0] ">
+        <div className="order-2 md:order-3 w-full  my-[62px] md:my-[0]">
           {" "}
-          <SociaLinks />
+          <SociaLinks justifyContent="justify-end" display="block" />
         </div>
       </div>
     </div>

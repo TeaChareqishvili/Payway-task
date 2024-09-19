@@ -1,12 +1,20 @@
 import { socialLinks } from "./data";
+import { SocialLinksProps } from "../Interface";
 
-export default function SociaLinks() {
+export default function SociaLinks({
+  justifyContent,
+  display,
+}: SocialLinksProps) {
   return (
-    <div className=" flex items-center justify-end">
+    <div
+      style={{ justifyContent: justifyContent }}
+      className=" flex items-center justify-end"
+    >
       {socialLinks.map((info) => (
         <div
+          style={{ justifyContent: justifyContent, display: display }}
           key={info.id}
-          className="flex items-center justify-between w-full md:block md:w-auto "
+          className=" items-center  w-full  md:w-auto "
         >
           <a href={info.address} target="_blank" rel="noopener noreferrer">
             <img

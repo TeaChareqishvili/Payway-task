@@ -30,3 +30,12 @@ export interface TeamType {
   name: string;
   position: string;
 }
+
+export interface SocialLinksProps {
+  justifyContent: string;
+  display: string;
+}
+export interface NavigationProps {
+  flexDirection?: string;
+  marginBottom: string;
+}

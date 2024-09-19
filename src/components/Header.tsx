@@ -11,8 +11,8 @@ export default function Header() {
         </div>
         <div className="hidden lg:flex">
           {" "}
-          <Navigation />
-        </div>
+          <Navigation flexDirection="row" marginBottom="0" />
+        </div>{" "}
         <Burger />
       </div>
     </div>

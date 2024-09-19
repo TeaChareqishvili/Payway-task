@@ -1,5 +1,6 @@
 import { TeamData } from "./data";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -11,10 +12,18 @@ export default function Team() {
         # our team
       </p>
       <Swiper
+        modules={[Pagination]}
+        pagination={{
+          el: ".swiper-pagination",
+          clickable: true,
+          renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + (index + 1) + "</span>";
+          },
+        }}
         slidesPerView="auto"
         className=" flex items-center  w-full overflow-hidden  mb-[66px]"
         keyboard={true}
-        pagination={true}
+        // pagination={{ clickable: true }}
       >
         {TeamData.map((item) => (
           <SwiperSlide
@@ -32,6 +41,7 @@ export default function Team() {
             </div>
           </SwiperSlide>
         ))}
+        <div className="swiper-pagination"></div>
       </Swiper>
     </div>
   );

@@ -7,6 +7,7 @@ import AboutUsPage from "./components/AboutUsPage";
 import ContactLayout from "./components/ContactLayout";
 import PartnersLayout from "./components/PartnersLayout";
 import ServicePage from "./components/ServicePage";
+import MobileMenu from "./components/MobileMenu";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contact" element={<ContactLayout />} />
           <Route path="/partners" element={<PartnersLayout />} />
           <Route path="/services" element={<ServicePage />} />
+          <Route path="/mobileMenu" element={<MobileMenu />} />
         </Routes>
       </main>
       <Footer />

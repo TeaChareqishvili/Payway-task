@@ -50,6 +50,13 @@ body,
   background-position: top;
   background-size: cover;
 }
+.mobile-background {
+  background-image: url("../src/assets/backgrounds/mobileback.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+}
 
 .cover {
   transform: translateY(79px);
@@ -65,4 +72,32 @@ body,
   .footer-background {
     background-image: url("../src//assets/backgrounds/galaktika3.png");
   }
+}
+
+.swiper-pagination-bullet {
+  background-color: red !important;
+}
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.swiper-pagination-bullet {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  background: #ddd;
+  color: #000;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #007bff;
+  color: #fff;
 }
