@@ -11,7 +11,7 @@ export default function MobileMenu() {
       <div className="flex flex-col items-center justify-center w-full">
         <div className="flex items-center justify-between w-full">
           <img src={Logo} alt="logo" />
-          <NavLink to="/">
+          <NavLink to="/Payway-task">
             {" "}
             <img src={burger} alt="burger" />
           </NavLink>

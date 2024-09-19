@@ -20,7 +20,7 @@ const Navigation: React.FC<NavigationProps> = ({
       >
         <NavLink
           style={{ marginBottom: marginBottom }}
-          to="/"
+          to="/Payway-task"
           className={({ isActive }) => getLinkClassName({ isActive })}
         >
           Home
