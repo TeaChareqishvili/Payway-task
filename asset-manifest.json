@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Payway-task/static/css/main.f1d756c2.css",
-    "main.js": "/Payway-task/static/js/main.4e103c95.js",
+    "main.js": "/Payway-task/static/js/main.91ee65df.js",
     "static/media/galaktika2.png": "/Payway-task/static/media/galaktika2.d4edcd687b00df2c2937.png",
     "static/media/galaktika1.png": "/Payway-task/static/media/galaktika1.0d08b81ab8f3ecb31882.png",
     "static/media/mobileback.png": "/Payway-task/static/media/mobileback.b101f26c15ad3f338746.png",
@@ -17,10 +17,10 @@
     "static/media/footerback.png": "/Payway-task/static/media/footerback.fa08df5cffa9fc815489.png",
     "index.html": "/Payway-task/index.html",
     "main.f1d756c2.css.map": "/Payway-task/static/css/main.f1d756c2.css.map",
-    "main.4e103c95.js.map": "/Payway-task/static/js/main.4e103c95.js.map"
+    "main.91ee65df.js.map": "/Payway-task/static/js/main.91ee65df.js.map"
   },
   "entrypoints": [
     "static/css/main.f1d756c2.css",
-    "static/js/main.4e103c95.js"
+    "static/js/main.91ee65df.js"
   ]
 }
