@@ -39,3 +39,8 @@ export interface NavigationProps {
   flexDirection?: string;
   marginBottom: string;
 }
+
+export interface PaginationProps {
+  totalPages: number;
+  onPageChange: (page: number) => void;
+}

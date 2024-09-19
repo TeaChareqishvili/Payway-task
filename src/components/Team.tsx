@@ -1,31 +1,39 @@
 import { TeamData } from "./data";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { useState } from "react";
+
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
+import Pagination from "./Pagination";
+
+const itemsPerPage = 4;
 
 export default function Team() {
+  const [currentPage, setCurrentPage] = useState(1);
+
+  // get total pages from data
+  const totalPages = Math.ceil(TeamData.length / itemsPerPage);
+
+  const onPageChange = (pageNumber: number) => {
+    setCurrentPage(pageNumber);
+  };
+
+  // calculate and get item for current page
+  const currentItems = TeamData.slice(
+    (currentPage - 1) * itemsPerPage,
+    (currentPage - 1) * itemsPerPage + itemsPerPage
+  );
   return (
-    <div className="w-full">
+    <div className="w-full relative">
       <p className=" font-Roboto-500 hidden md:flex text-[24px] text-[#28C840] ml-[24px] mt-[24px] mb-[38px]">
         # our team
       </p>
       <Swiper
-        modules={[Pagination]}
-        pagination={{
-          el: ".swiper-pagination",
-          clickable: true,
-          renderBullet: function (index, className) {
-            return '<span class="' + className + '">' + (index + 1) + "</span>";
-          },
-        }}
         slidesPerView="auto"
         className=" flex items-center  w-full overflow-hidden  mb-[66px]"
         keyboard={true}
-        // pagination={{ clickable: true }}
       >
-        {TeamData.map((item) => (
+        {currentItems.map((item) => (
           <SwiperSlide
             key={item.id}
             className="md:ml-[24px] mr-[24px] md:mr-[0] max-w-[282px] w-full relative  cursor-pointer hover overflow-hidden "
@@ -41,8 +49,11 @@ export default function Team() {
             </div>
           </SwiperSlide>
         ))}
-        <div className="swiper-pagination"></div>
       </Swiper>
+      <div className="w-full flex items-center justify-center lg:items-end lg:justify-end">
+        {" "}
+        <Pagination totalPages={totalPages} onPageChange={onPageChange} />
+      </div>
     </div>
   );
 }
