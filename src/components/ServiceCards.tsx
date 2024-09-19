@@ -2,11 +2,11 @@ import { ServiceData } from "./data";
 
 export default function ServiceCards() {
   return (
-    <div className=" w-full flex items-center justify-between mb-[54px] ml-[25px] ">
+    <div className=" w-full flex flex-col items-center justify-center mb-[54px] lg:ml-[25px] lg:flex-row lg:justify-between ">
       {ServiceData.map((item) => (
         <div
           key={item.id}
-          className="bg-[#FBFBFB] rounded-lg px-[18px] py-[18px] mr-[24px] cursor-pointer transition-all duration-200 hover:shadow-lg hover:scale-110"
+          className="bg-[#FBFBFB] mb-[38px] lg:mb-[0] rounded-lg px-[18px] py-[18px] lg:mr-[24px] cursor-pointer transition-all duration-200 hover:shadow-lg hover:scale-110"
         >
           <div className="flex items-center justify-between mb-[11px]">
             <div
@@ -17,15 +17,15 @@ export default function ServiceCards() {
               <img src={item.image} alt="icon" />
             </div>
 
-            <p className="text-[60px] text-[#3730A3] opacity-10">
+            <p className="font-Roboto-600 text-[60px] text-[#3730A3] opacity-10">
               {item.number}
             </p>
           </div>
           <div className="flex flex-col items-start justify-start">
-            <h3 className="text-[22px] text-[#000000] leading-[25px] mb-[5px]">
+            <h3 className=" font-Roboto-600 font-bold text-[22px] text-[#000000] leading-[25px] mb-[5px]">
               {item.title}
             </h3>
-            <p className="text-[12px] text-[#000000] leading-[14px] mb-[5px]">
+            <p className=" font-Roboto-600 font-bold text-[12px] text-[#000000] leading-[14px] mb-[5px]">
               {item.text}
             </p>
             <img src={item.arrow} alt="more-arrow" />

@@ -2,7 +2,7 @@ import facebook from "../assets/socialIcons/facebook.png";
 import instagram from "../assets/socialIcons/insta.png";
 import twitter from "../assets/socialIcons/twitter.png";
 import linkedin from "../assets/socialIcons/linkedin.png";
-import { LinksTypes, SlideTypes } from "../Interface";
+import { LinksTypes, SlideTypes, TeamType } from "../Interface";
 import { ServiceTypes } from "../Interface";
 import web from "../assets/services/web.tif.png";
 import mobile from "../assets/services/mobile.png";
@@ -11,6 +11,7 @@ import arrow from "../assets/services/arrow.png";
 import slide from "../assets/projects/project.png";
 import slide2 from "../assets/projects/project2.png";
 import slide3 from "../assets/projects/project3.png";
+import Team from "../assets/aboutus/about.png";
 
 export const socialLinks: LinksTypes[] = [
   {
@@ -89,5 +90,56 @@ export const sliderdata: SlideTypes[] = [
   {
     id: 6,
     image: slide3,
+  },
+];
+
+export const TeamData: TeamType[] = [
+  {
+    id: 1,
+    image: Team,
+    name: "Name Lastname",
+    position: "Position",
+  },
+  {
+    id: 2,
+    image: Team,
+    name: "Name Lastname",
+    position: "Position",
+  },
+  {
+    id: 3,
+    image: Team,
+    name: "Name Lastname",
+    position: "Position",
+  },
+  {
+    id: 4,
+    image: Team,
+    name: "Name Lastname",
+    position: "Position",
+  },
+  {
+    id: 5,
+    image: Team,
+    name: "Name Lastname",
+    position: "Position",
+  },
+  {
+    id: 6,
+    image: Team,
+    name: "Name Lastname",
+    position: "Position",
+  },
+  {
+    id: 7,
+    image: Team,
+    name: "Name Lastname",
+    position: "Position",
+  },
+  {
+    id: 8,
+    image: Team,
+    name: "Name Lastname",
+    position: "Position",
   },
 ];

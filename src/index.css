@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Roboto-400";
+  src: url("../src/fonts/Roboto-Thin.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto-500";
+  src: url("../src/fonts/Roboto-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Roboto-600";
+  src: url("../src/fonts/Roboto-Black.ttf") format("ttf");
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -35,4 +49,20 @@ body,
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+}
+
+.cover {
+  transform: translateY(79px);
+  transition-duration: 1s;
+}
+
+.hover:hover .cover {
+  transform: translateY(0);
+  transition-duration: 1s;
+}
+
+@media (max-width: 769px) {
+  .footer-background {
+    background-image: url("../src//assets/backgrounds/galaktika3.png");
+  }
 }

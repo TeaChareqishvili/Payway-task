@@ -1,7 +1,7 @@
 export default function LeadingText() {
   return (
     <>
-      <p className="text-[15px] md:text-[20px] text-[#FBFBFB] leading-[17px] md:leading-[23px] mb-[24px] md:mb-[44px] capitalize tracking-widest md:ml-[25px] md:tracking-wide">
+      <p className="  font-Roboto-400 text-[15px] md:text-[20px] text-[#FBFBFB] leading-[17px] md:leading-[23px] mb-[24px] md:mb-[44px] capitalize tracking-widest md:ml-[25px] md:tracking-wide">
         Your About Us page is one of the first supporting pages you’ll likely
         design when building your website, regardless of the industry{" "}
         <br className="hidden lg:flex"></br> you’re in.{" "}

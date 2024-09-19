@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 const Navigation: React.FC = () => {
   const getLinkClassName = ({ isActive }: { isActive: boolean }) =>
     isActive
-      ? "text-[#55EDFF] text-[20px] md:mr-[19px] ml-[19px]"
-      : "text-white text-[20px] hover:text-[#55EDFF]  md:mr-[19px] ml-[19px] ";
+      ? "text-[#55EDFF] text-[20px] md:mr-[19px] ml-[19px]  font-Roboto-400"
+      : "text-white text-[20px] hover:text-[#55EDFF]  md:mr-[19px] ml-[19px]  font-Roboto-400 ";
 
   return (
     <nav className="">

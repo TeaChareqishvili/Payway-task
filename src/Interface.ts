@@ -23,3 +23,10 @@ export interface SlideTypes {
   id: number;
   image: string;
 }
+
+export interface TeamType {
+  id: number;
+  image: string;
+  name: string;
+  position: string;
+}
