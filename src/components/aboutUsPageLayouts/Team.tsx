@@ -38,7 +38,11 @@ export default function Team() {
             key={item.id}
             className="md:ml-[24px] mr-[24px] md:mr-[0] max-w-[282px] w-full relative  cursor-pointer hover overflow-hidden "
           >
-            <img src={item.image} alt="project-image" />
+            <img
+              className="w-[282px] h-[262px] rounded-lg"
+              src={item.image}
+              alt="project-image"
+            />
             <div className="absolute bottom-0 left-0 bg-[#2D46C680] w-full px-[14px] py-[18px] rounded-b-lg cover">
               <p className="font-Roboto-500 text-[18px] text-[#FBFBFB] leading-[18px] mb-[8px]">
                 {item.name}

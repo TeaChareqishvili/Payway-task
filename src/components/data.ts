@@ -12,6 +12,7 @@ import slide from "../assets/projects/project.png";
 import slide2 from "../assets/projects/project2.png";
 import slide3 from "../assets/projects/project3.png";
 import Team from "../assets/aboutus/about.png";
+import teamMember from "../assets/aboutus/team.png";
 
 export const socialLinks: LinksTypes[] = [
   {
@@ -120,7 +121,7 @@ export const TeamData: TeamType[] = [
   },
   {
     id: 5,
-    image: Team,
+    image: teamMember,
     name: "Name Lastname",
     position: "Position",
   },
@@ -150,7 +151,7 @@ export const TeamData: TeamType[] = [
   },
   {
     id: 10,
-    image: Team,
+    image: teamMember,
     name: "Name Lastname",
     position: "Position",
   },

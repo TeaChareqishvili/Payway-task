@@ -11,7 +11,7 @@ export default function Slider() {
   return (
     <Swiper
       slidesPerView="auto"
-      className=" flex items-center  w-full overflow-hidden relative lg:mb-[66px]"
+      className=" flex items-center  w-full overflow-hidden relative lg:mb-[66px py-[30px]"
       keyboard={true}
       pagination={true}
       modules={[Mousewheel, Keyboard, Autoplay]}
